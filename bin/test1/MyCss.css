@@ -1,0 +1,25 @@
+.button {
+    -fx-font: 24px "Serif";
+    -fx-pref-height: 50;
+    -fx-pref-width: 200;
+    -fx-text-fill:white;
+    
+    -fx-background-color: #004080;
+}
+.label {
+    -fx-font: 24px "Serif";
+    -fx-padding: 10;
+    -fx-text-fill:black;
+    -fx-font-weight:bold;
+    -fx-font-color:black;
+    
+}
+.custom-pane-top {
+     -fx-background-color: #909090;
+}
+.custom-pane-left {
+     -fx-background-color: #b5e7ff;
+}
+.custom-pane-center {
+     -fx-background-color: #ececec;
+}

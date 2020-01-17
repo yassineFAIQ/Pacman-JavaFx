@@ -1,0 +1,66 @@
+.topHBox{
+//#909090
+    -fx-background-color: BLACK;
+    -fx-font-size: 24px;
+    -fx-font-weight: bolder;
+}
+.leftVBox{
+    -fx-background-color: #93E2E9;
+    -fx-padding: 5 5 5 5;
+}
+.leftVBoxPrime{
+    -fx-background-color: #b5e7ff;
+
+}
+.buttonB {
+    -fx-background-color:transparent;
+    -fx-background-radius:50px;
+    -fx-border-color:BLUE ;
+    -fx-font-size: 20px;
+    -fx-text-fill:white;
+    -fx-border-radius:50px;
+    -fx-border-width:2px;
+    -fx-pref-width:150px;
+
+    
+}
+
+.buttonB:hover {
+    -fx-background-color:BLUE;
+ 
+
+
+    -fx-text-fill:white;
+    -fx-cursor: hand;
+
+
+    
+}
+.menu {
+    -fx-font: 76px"Calibri";
+    -fx-pref-height: 150;
+    -fx-pref-width: 200;
+    -fx-text-fill:white;
+    /*-fx-padding: 5 5 5 5;*/
+    /*-fx-border-insets: 5px;*/
+    -fx-background-insets: 5px;
+    -fx-background-color:transparent;
+}
+
+.labelText {
+    -fx-font: 30px"Calibri";
+    -fx-font-weight: bolder;
+    -fx-text-fill:white;
+
+}
+.labelScore {
+    -fx-font: 80px"Calibri";
+    -fx-font-weight: bolder;
+    -fx-text-fill:white;
+    -fx-background-color:RED;
+
+}
+
+
+
+
