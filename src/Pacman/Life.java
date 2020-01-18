@@ -15,7 +15,7 @@ public class Life extends Label {
 	public Life() {
 		Image image = null;
 		try {
-			image = new Image(new FileInputStream("src/photosJeu/life.png"));
+			image = new Image(new FileInputStream("Pacman-JavaFx-master/src/photosJeu/life.png"));
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

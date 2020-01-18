@@ -11,7 +11,7 @@ public class Monster extends graphicObject {
 	public Monster(Zone zone) {
 		Image image=null;
 		try {
-			image = new Image(new FileInputStream("src/photosJeu/monster.png"));
+			image = new Image(new FileInputStream("Pacman-JavaFx-master/src/photosJeu/monster.png"));
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

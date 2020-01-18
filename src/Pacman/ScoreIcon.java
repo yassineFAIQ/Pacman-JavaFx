@@ -15,7 +15,7 @@ public class ScoreIcon extends Label {
 	public ScoreIcon() {
 		Image image = null;
 		try {
-			image = new Image(new FileInputStream("src/photosJeu/score.png"));
+			image = new Image(new FileInputStream("Pacman-JavaFx-master/src/photosJeu/score.png"));
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

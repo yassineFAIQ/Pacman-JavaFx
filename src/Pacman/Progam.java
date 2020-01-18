@@ -87,21 +87,21 @@ static boolean isWinner = false ;
 static int scoreFinish = 9 ;
 
 
-String musicFile = "src/photosJeu/music.mp3";
+String musicFile = "Pacman-JavaFx-master/src/photosJeu/music.mp3";
 Media sound = new Media(new File(musicFile).toURI().toString());
 MediaPlayer mediaPlayerStart = new MediaPlayer(sound);
 
-String musicFileGameOver = "src/photosJeu/gameover.mp3";
+String musicFileGameOver = "Pacman-JavaFx-master/src/photosJeu/gameover.mp3";
 Media gameover = new Media(new File(musicFileGameOver).toURI().toString());
 MediaPlayer mediaPlayerGameOver = new MediaPlayer(gameover);
 
 
-String musicFileStart = "src/photosJeu/startMusic.mp3";
+String musicFileStart = "Pacman-JavaFx-master/src/photosJeu/startMusic.mp3";
 Media musicStart = new Media(new File(musicFileStart).toURI().toString());
 MediaPlayer StartmediaPlayer = new MediaPlayer(musicStart);
 
 
-String musicFileWinner = "src/photosJeu/isWinner.mp3";
+String musicFileWinner = "Pacman-JavaFx-master/src/photosJeu/isWinner.mp3";
 Media musicWinner = new Media(new File(musicFileWinner).toURI().toString());
 MediaPlayer mediaPlayerWinner = new MediaPlayer(musicWinner);
 
@@ -211,7 +211,7 @@ AnimationTimer animation1 = new AnimationTimer() {
 				   
             Image gameOverImage = null;
             try {
-                gameOverImage = new Image(new FileInputStream("src/photosJeu/gameover.png"));
+                gameOverImage = new Image(new FileInputStream("Pacman-JavaFx-master/src/photosJeu/gameover.png"));
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
             }
@@ -296,7 +296,7 @@ AnimationTimer animationStage = new AnimationTimer() {
 				   
             Image LevelImage = null;
             try {
-            	LevelImage = new Image(new FileInputStream("src/photosJeu/level.png"));
+            	LevelImage = new Image(new FileInputStream("Pacman-JavaFx-master/src/photosJeu/level.png"));
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
             }
@@ -383,7 +383,7 @@ AnimationTimer animationStageFinal = new AnimationTimer() {
 				   
             Image LevelImage = null;
             try {
-            	LevelImage = new Image(new FileInputStream("src/photosJeu/level.png"));
+            	LevelImage = new Image(new FileInputStream("Pacman-JavaFx-master/src/photosJeu/level.png"));
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
             }
@@ -473,7 +473,7 @@ AnimationTimer animationStageWinner = new AnimationTimer() {
 				   
             Image LevelImage = null;
             try {
-            	LevelImage = new Image(new FileInputStream("src/photosJeu/winner.png"));
+            	LevelImage = new Image(new FileInputStream("Pacman-JavaFx-master/src/photosJeu/winner.png"));
             } catch (FileNotFoundException e) {
                 e.printStackTrace();
             }
@@ -714,7 +714,7 @@ private void refeshContentFinal() {
 		
 		Image image = null;
 		try {
-			image = new Image(new FileInputStream("src/photosJeu/background.jpg"));
+			image = new Image(new FileInputStream("Pacman-JavaFx-master/src/photosJeu/background.jpg"));
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
@@ -747,7 +747,7 @@ private void refeshContentFinal() {
 		
 		Image image = null;
 		try {
-			image = new Image(new FileInputStream("src/photosJeu/backgroundF.jpg"));
+			image = new Image(new FileInputStream("Pacman-JavaFx-master/src/photosJeu/backgroundF.jpg"));
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();

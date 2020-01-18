@@ -27,7 +27,7 @@ public class Arme extends graphicObject {
 		////modif
 		Image image=null;
 		try {
-			image = new Image(new FileInputStream("src/photosJeu/fire.png"));
+			image = new Image(new FileInputStream("Pacman-JavaFx-master/src/photosJeu/fire.png"));
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
